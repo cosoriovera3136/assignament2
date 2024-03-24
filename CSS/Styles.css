@@ -1,0 +1,292 @@
+/* Name: Cristian Osorio */
+/* ID Condors: 8903136 */
+
+
+/* Font */
+html {
+    font: 20px Arial, sans-serif;
+    font-style : normal;
+    font-variant: small-caps;
+    font-weight : lighter;
+    font-size : 10px;
+    line-height: .5em;
+}
+
+h2 {
+    font-variant: small-caps;
+    text-align: center;
+}
+blockquote q {
+    font-style: 3px italic;
+}
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.0em;
+}
+
+/* Box Model & Alignment */
+body {
+    max-width: 1300px;
+    width: 90%;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+header, footer {
+    border: 3px solid rgb(85, 132, 233);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#biography {
+    text-align: left;
+    padding: 1em;
+    margin: 1em;
+    width: 750px;
+}
+
+.main-section {
+    text-align: center;
+    padding: 1em;
+}
+
+.main-section-figure {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    max-width: 700px;
+}
+#quote {
+    padding: 2em;
+    margin: 2em;
+    border: 3px solid rgb(56, 241, 39);
+    box-shadow: 5px 5px 5px rgb(85, 132, 233);
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 680px;
+}
+
+/* Borders & Box Shadow */
+#absolute-path-image {
+    padding: 1em;
+    border: 5px solid rgb(85, 132, 233);
+    background-color: #91c1f1;
+    border-radius: 5px;
+}
+
+
+iframe {
+    padding: 1em;
+    border: 5px solid rgb(56, 241, 39);
+    border-radius: 5px;
+    margin: auto;
+}
+
+/* Colour */
+header, footer {
+    background: linear-gradient(to bottom, #62f8cb, #ecee70);
+    color: rgb(85, 132, 233);
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#absolute-path-image figcaption {
+    color: rgb(85, 132, 233);
+}
+
+h1, h2 {
+    color: rgb(85, 132, 233);
+}
+
+
+
+
+/* Nav - links */
+html {
+    font: 20px Arial, sans-serif;
+}
+h1, h2 {
+    font-variant: small-caps;
+}
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.0em;
+}
+blockquote q {
+    font-style: 3px italic;
+}
+
+header nav ul {
+    list-style: none; 
+    padding: auto;
+}
+
+header nav ul li {
+    display: inline-block; 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: Arial;
+    font-variant: none;
+    color: rgb(85, 132, 233);
+    display: block;
+    width: 600px; 
+    padding: 10px;
+    margin: 4px; 
+    background-color: rgb(226, 232, 243);
+    border: 2px solid rgb(85, 132, 233);
+    text-align: center;
+}
+
+header nav ul li a:hover {
+    color: rgb(245, 138, 16);
+    background-color: rgb(245, 242, 74);
+    border-color: rgb(85, 132, 233);
+}
+
+/* Layout */
+nav {
+    float: center;
+    width: 50%; 
+}
+
+main {
+    float: left;
+    width: 70%; 
+}
+
+aside {
+    float: right;
+    width: 30%; 
+}
+
+footer {
+    clear: both;
+}
+
+/* Aside */
+aside {
+    text-align: center;
+}
+
+aside h3 {
+    font-variant: small-caps; 
+    color: rgb(85, 132, 233);
+}
+
+aside table {
+    border-collapse: separate; 
+    width: 100%; 
+}
+
+aside th, aside td {
+    border: 2px solid rgb(85, 132, 233); 
+    padding: 8px; 
+    text-align: center; 
+}
+
+/* External Links */
+aside ul {
+    list-style: none; 
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px; 
+}
+
+aside ul li a {
+    text-decoration: none; 
+    color: rgb(85, 132, 233); 
+    line-height: 1.5;
+}
+
+aside ul li a:hover {
+    color: rgb(56, 241, 39); 
+}
+
+/* Form CSS */
+form {
+    padding: 20px; 
+    margin: 0 auto; 
+    width: 70%; 
+}
+
+label {
+    font-weight: bold;
+    color: rgb(85, 132, 233); 
+}
+
+input[type="text"],
+input[type="date"],
+input[type="color"],
+input[type="email"],
+input[type="number"],
+input[type="select"],
+input[type="date"],
+select,
+textarea {
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border: 1px solid rgb(85, 132, 233);
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="color"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="select"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    outline: none; 
+    border-color: rgb(56, 241, 39); 
+}
+
+input[type="submit"] {
+    background-color: rgb(85, 132, 233); 
+    color: rgb(254, 254, 255); 
+    border: none; 
+    padding: 10px 290px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+
+input[type="submit"]:hover {
+    background-color: rgb(56, 241, 39); 
+}
+
+/* Responsive CSS */
+@media only screen and (max-width: 768px) {
+    
+    html {
+        font-size: 16px;
+    }
+
+    main, aside {
+        float: none;
+        width: auto;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+}
